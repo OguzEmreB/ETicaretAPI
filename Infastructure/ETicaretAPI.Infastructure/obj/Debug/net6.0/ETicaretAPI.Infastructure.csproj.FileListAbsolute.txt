@@ -1,0 +1,17 @@
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaretAPI.Infastructure.deps.json
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaretAPI.Infastructure.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaretAPI.Infastructure.pdb
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaret.Application.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaretAPI.Domain.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaret.Application.pdb
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.csproj.AssemblyReference.cache
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.AssemblyInfoInputs.cache
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.AssemblyInfo.cs
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.csproj.CoreCompileInputs.cache
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaret.A3D05629.Up2Date
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\refint\ETicaretAPI.Infastructure.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ETicaretAPI.Infastructure.pdb
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Infastructure\obj\Debug\net6.0\ref\ETicaretAPI.Infastructure.dll
