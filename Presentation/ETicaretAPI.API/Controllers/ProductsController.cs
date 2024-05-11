@@ -26,7 +26,7 @@ namespace ETicaretAPI.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery]Pagination pagination)
         {
-            await Task.Delay(1500); // spinner görünsün diye
+            //await Task.Delay(1500); // spinner görünsün 
             #region deneme
 
             ////await _productWriteRepository.AddRangeAsync(new()
@@ -81,8 +81,7 @@ namespace ETicaretAPI.API.Controllers
                 totalCount,
                 products
             });
-        }
-
+        } 
         //[HttpGet]
         //public async Task<IActionResult> Get(string Id)
         //{
@@ -91,7 +90,7 @@ namespace ETicaretAPI.API.Controllers
         //}
 
 
-            [HttpPost]
+        [HttpPost]
         public async Task<IActionResult> Post(VM_Create_Product model)
         {
         
