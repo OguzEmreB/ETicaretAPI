@@ -6,6 +6,7 @@ using ETicaretAPI.Persistence.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using System.Reflection.Metadata;
 
 namespace ETicaretAPI.API.Controllers
 {
@@ -15,16 +16,16 @@ namespace ETicaretAPI.API.Controllers
     {
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
-      
-        
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IOrderWriteRepository orderWriteRepository, ICustomerWriteRepository customerWriteRepository, ICustomerReadRepository customerReadRepository, IOrderReadRepository orderReadRepository )
+        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IWebHostEnvironment webHostEnvironment)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
-       
+            this._webHostEnvironment = webHostEnvironment;
         }
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery]Pagination pagination)
+        public async Task<IActionResult> Get([FromQuery] Pagination pagination)
         {
             //await Task.Delay(1500); // spinner görünsün 
             #region deneme
@@ -66,7 +67,7 @@ namespace ETicaretAPI.API.Controllers
             #region ReadAll
 
             var totalCount = _productReadRepository.GetAll(false).Count();
-            var products =_productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p=>new
+            var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
             {
                 p.Id,
                 p.Name,
@@ -81,7 +82,7 @@ namespace ETicaretAPI.API.Controllers
                 totalCount,
                 products
             });
-        } 
+        }
         //[HttpGet]
         //public async Task<IActionResult> Get(string Id)
         //{
@@ -93,7 +94,7 @@ namespace ETicaretAPI.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(VM_Create_Product model)
         {
-        
+
             await _productWriteRepository.AddAsync(new()
             {
                 Name = model.Name,
@@ -103,17 +104,17 @@ namespace ETicaretAPI.API.Controllers
             await _productWriteRepository.SaveAsync();
 
 
-          return  StatusCode((int)HttpStatusCode.Created);
+            return StatusCode((int)HttpStatusCode.Created);
 
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put(VM_Update_Product model )
+        public async Task<IActionResult> Put(VM_Update_Product model)
         {
-           Product product = await _productReadRepository.GetByIdAsync(model.Id );
-            product.Stock= model.Stock;
-            product.Price= model.Price;
-            product.Name= model.Name;
+            Product product = await _productReadRepository.GetByIdAsync(model.Id);
+            product.Stock = model.Stock;
+            product.Price = model.Price;
+            product.Name = model.Name;
             await _productWriteRepository.SaveAsync();
             return Ok();
 
@@ -121,12 +122,32 @@ namespace ETicaretAPI.API.Controllers
         [HttpDelete("{Id}")]
         public async Task<IActionResult> Delete(string Id)
         {
-             
+
             await _productWriteRepository.RemoveAsync(Id);
             await _productWriteRepository.SaveAsync();
 
             return Ok();
 
+        }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Upload()
+        {
+            //wwwroot/resource/product-images
+            string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, "resource/product-images");
+
+            if (!Directory.Exists(uploadPath))
+                Directory.CreateDirectory(uploadPath);
+
+            Random r = new();
+            foreach (IFormFile file in Request.Form.Files)
+            {
+                string fullPath = Path.Combine(uploadPath, $"{r.Next()}{Path.GetExtension(file.FileName)}");
+
+                using FileStream fileStream = new(fullPath, FileMode.Create, FileAccess.Write, FileShare.None, 1024 * 1024, useAsync: false);
+                await file.CopyToAsync(fileStream);
+                await fileStream.FlushAsync();
+            }
+            return Ok();
         }
     }
 }
