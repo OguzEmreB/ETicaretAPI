@@ -1,2 +1,15 @@
 ﻿.vs/ETicaretAPI/FileContentIndex
 Presentation/ETicaretAPI.API/wwwroot/resource/product-images
+.vs/ETicaretAPI/DesignTimeBuild
+.vs/ETicaretAPI/v17
+.vs/ProjectEvaluation
+Core/ETicaret.Application/bin/Debug/net6.0
+Infastructure/ETicaretAPI.Infastructure/bin/Debug/net6.0
+Infastructure/ETicaretAPI.Infastructure/obj/Debug/net6.0/ref
+Infastructure/ETicaretAPI.Infastructure/obj/Debug/net6.0
+Presentation/ETicaretAPI.API/bin/Debug
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.csproj.AssemblyReference.cache
+Infastructure/ETicaretAPI.Persistence/obj/Debug
+Infastructure/ETicaretAPI.Persistence/bin/Debug
+Core/ETicaret.Application/obj/Debug
+Presentation/ETicaretAPI.API/obj/Debug

@@ -15,3 +15,4 @@ E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Persistence\o
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\refint\ETicaretAPI.Persistence.dll
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.pdb
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Infastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.sourcelink.json
