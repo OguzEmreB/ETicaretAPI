@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oKnmOQVjdmTn7FqZuioOiScEruwYHuvYCZz+2bX7Dlw=",
+  "Hash": "Aw7Iy4DupazUVMeNucYU92t7GKlzSOsGuMzL0J0mm8c=",
   "Source": "ETicaretAPI.API",
   "BasePath": "_content/ETicaretAPI.API",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resource\\product-images\\edit.png"
+    },
+    {
+      "Identity": "E:\\aoğuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\edit-2.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\aoğuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/edit-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\edit-2.png"
     }
   ]
 }
