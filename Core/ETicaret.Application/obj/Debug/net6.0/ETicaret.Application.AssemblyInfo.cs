@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETicaret.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+470fa80af991be13fa16bca224c508940b7367de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f8afd8bb4877e8bf727473c0e824c9c89223214")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETicaret.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETicaret.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
