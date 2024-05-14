@@ -9,3 +9,4 @@ E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\refint\ETicaretAPI.Domain.dll
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.pdb
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ref\ETicaretAPI.Domain.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.sourcelink.json
