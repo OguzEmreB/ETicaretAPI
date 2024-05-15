@@ -13,3 +13,5 @@ Infastructure/ETicaretAPI.Persistence/obj/Debug
 Infastructure/ETicaretAPI.Persistence/bin/Debug
 Core/ETicaret.Application/obj/Debug
 Presentation/ETicaretAPI.API/obj/Debug
+Presentation/ETicaretAPI.API/wwwroot/resource
+Presentation/ETicaretAPI.API/wwwroot/resource

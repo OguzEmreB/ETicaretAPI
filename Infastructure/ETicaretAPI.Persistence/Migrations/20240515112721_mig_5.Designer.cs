@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ETicaretAPI.Persistence.Migrations
 {
     [DbContext(typeof(ETicaretAPIDbContext))]
-    [Migration("20240514204738_mig_2")]
-    partial class mig_2
+    [Migration("20240515112721_mig_5")]
+    partial class mig_5
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,6 +64,10 @@ namespace ETicaretAPI.Persistence.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Storage")
                         .IsRequired()
                         .HasColumnType("text");
 

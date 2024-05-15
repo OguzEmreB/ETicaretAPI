@@ -10,6 +10,7 @@ using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using ETicaret.Application.Repositories;
 using ETicaretAPI.Persistence.Repositories;
+using ETicaretAPI.Infrastructure.Services.Storage;
 
 namespace ETicaretAPI.Persistence
 {
