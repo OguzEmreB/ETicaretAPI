@@ -17,7 +17,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
         BlobContainerClient _blobContainerClient;
         public AzureStorage(IConfiguration configuration)
         {
-            _blobServiceClient = new(configuration["Secret"]);
+            _blobServiceClient = new(configuration["Storage:Secret"]);
         }
         public async Task DeleteAsync(string containerName, string fileName)
         {
