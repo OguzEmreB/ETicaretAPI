@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.infastructure\\services\\storage\\azure\\azurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|solutionrelative:infastructure\\eticaretapi.infastructure\\services\\storage\\azure\\azurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.infastructure\\services\\storage\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|solutionrelative:infastructure\\eticaretapi.infastructure\\services\\storage\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.infastructure\\services\\storage\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|solutionrelative:infastructure\\eticaretapi.infastructure\\services\\storage\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.infastructure\\services\\storage\\local\\localstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|solutionrelative:infastructure\\eticaretapi.infastructure\\services\\storage\\local\\localstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\abstractions\\storage\\azure\\iazurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\abstractions\\storage\\azure\\iazurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.infastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|solutionrelative:infastructure\\eticaretapi.infastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.infastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6582971-625E-4309-81F7-7BF0D53CF33C}|Infastructure\\ETicaretAPI.Infastructure\\ETicaretAPI.Infrastructure.csproj|solutionrelative:infastructure\\eticaretapi.infastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,131 +51,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\appsettings.json",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\appsettings.json",
-              "RelativeToolTip": "Presentation\\ETicaretAPI.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-15T14:28:52.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Storage.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Storage.cs",
-              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Storage.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Storage.cs",
-              "RelativeToolTip": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Storage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T13:47:45.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StorageService.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\StorageService.cs",
-              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\StorageService.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\StorageService.cs",
-              "RelativeToolTip": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\StorageService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAawAsAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:39:25.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\Program.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Program.cs",
-              "RelativeToolTip": "Presentation\\ETicaretAPI.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:38:11.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Infastructure\\ServiceRegistration.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infastructure\\ETicaretAPI.Infastructure\\ServiceRegistration.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:36:51.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AzureStorage.cs",
               "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
               "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
               "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
               "RelativeToolTip": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBMAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:15:34.557Z",
+              "WhenOpened": "2024-05-18T22:17:21.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAzureStorage.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
-              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
-              "RelativeToolTip": "Core\\ETicaret.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:14:45.634Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\appsettings.json",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\appsettings.json",
+              "RelativeToolTip": "Presentation\\ETicaretAPI.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T20:59:50.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\Controllers\\ProductsController.cs",
               "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Presentation\\ETicaretAPI.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAnwKYAAAAvAAAA",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAswNkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:33:58.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LocalStorage.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Local\\LocalStorage.cs",
-              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Local\\LocalStorage.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Local\\LocalStorage.cs",
-              "RelativeToolTip": "Infastructure\\ETicaretAPI.Infastructure\\Services\\Storage\\Local\\LocalStorage.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAUwDMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:20:36.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Infastructure\\Services\\FileService.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Infastructure\\Services\\FileService.cs",
-              "RelativeToolTip": "Infastructure\\ETicaretAPI.Infastructure\\Services\\FileService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:21:30.246Z",
               "EditorCaption": ""
             }
           ]
