@@ -81,3 +81,6 @@ E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.IO.Hashing.dll
 E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.Memory.Data.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\MediatR.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\MediatR.Contracts.dll
+E:\aoğuz\ETicaretUygulamasi\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

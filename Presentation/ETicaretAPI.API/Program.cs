@@ -5,16 +5,22 @@ using ETicaretAPI.Persistence;
 using FluentValidation.AspNetCore;
 using ETicaretAPI.Infrastructure.Services.Storage.Local;
 using ETicaretAPI.Infrastructure.Services.Storage.Azure;
+using MediatR;
+using System.Reflection;
+using ETicaret.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddPersistenceServices();
+builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationService();
+
 
 builder.Services.AddStorage<AzureStorage>();
 //builder.Services.AddStorage<AzureStorage>();
+ 
 
-builder.Services.AddInfrastructureServices();
 builder.Services.AddCors(options => options.AddDefaultPolicy(
 //policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin())); // herkese izin verilir. app.UseCors(); eklenir
 
