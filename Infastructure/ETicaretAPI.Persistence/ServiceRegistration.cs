@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using ETicaret.Application.Repositories;
 using ETicaretAPI.Persistence.Repositories;
 using ETicaretAPI.Infrastructure.Services.Storage;
+using ETicaretAPI.Domain.Entities.Identity;
 
 namespace ETicaretAPI.Persistence
 {
@@ -20,6 +21,16 @@ namespace ETicaretAPI.Persistence
         {
            
             services.AddDbContext<ETicaretAPIDbContext> (options=>options.UseNpgsql("User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=ETicaretAPIDb;"));
+           
+            services.AddIdentity<AppUser,AppRole>(options=>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            }).AddEntityFrameworkStores<ETicaretAPIDbContext>();
+
             services.AddScoped<ICustomerReadRepository,CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository,CustomerWriteRepository>();
             services.AddScoped<IOrderReadRepository,OrderReadRepository>();
