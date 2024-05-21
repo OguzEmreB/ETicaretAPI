@@ -23,7 +23,7 @@ namespace ETicaret.Application.Features.Queries.Product.ProductImageFile.GetProd
 
         public async Task<List<GetProductImageQueryResponse>> Handle(GetProductImageQueryRequest request, CancellationToken cancellationToken)
         {
-            ETicaretAPI.Domain.Entities.Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
+            ETicaret.Domain.Entities.Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
                     .FirstOrDefaultAsync(p => p.Id == Guid.Parse(request.Id));
             return product?.ProductImageFiles.Select(p => new GetProductImageQueryResponse
             {

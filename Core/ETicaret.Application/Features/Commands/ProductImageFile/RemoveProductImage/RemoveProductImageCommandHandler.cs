@@ -23,10 +23,10 @@ namespace ETicaret.Application.Features.Commands.ProductImageFile.RemoveProductI
 
         public async Task<RemoveProductImageCommandResponse> Handle(RemoveProductImageCommandRequest request, CancellationToken cancellationToken)
         {
-            ETicaretAPI.Domain.Entities.Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
+            ETicaret.Domain.Entities.Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
             .FirstOrDefaultAsync(p => p.Id == Guid.Parse(request.Id));
 
-            ETicaretAPI.Domain.Entities.ProductImageFile? productImageFile = product.ProductImageFiles
+            ETicaret.Domain.Entities.ProductImageFile? productImageFile = product.ProductImageFiles
                 .FirstOrDefault(p => p.Id == Guid.Parse(request.ImageId));
             if (productImageFile != null) 
             product?.ProductImageFiles.Remove(productImageFile);

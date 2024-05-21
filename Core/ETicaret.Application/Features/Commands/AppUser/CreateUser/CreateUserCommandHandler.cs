@@ -6,9 +6,9 @@ namespace ETicaret.Application.Features.Commands.AppUser.CreateUser
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
     {
-        readonly UserManager<ETicaretAPI.Domain.Entities.Identity.AppUser> _userManager;
+        readonly UserManager<ETicaret.Domain.Entities.Identity.AppUser> _userManager;
 
-        public CreateUserCommandHandler(UserManager<ETicaretAPI.Domain.Entities.Identity.AppUser> userManager)
+        public CreateUserCommandHandler(UserManager<ETicaret.Domain.Entities.Identity.AppUser> userManager)
         {
             _userManager = userManager;
         }

@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace ETicaretAPI.Persistence.Migrations
+namespace ETicaret.Persistence.Migrations
 {
     /// <inheritdoc />
     public partial class mig_8 : Migration

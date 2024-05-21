@@ -22,7 +22,7 @@ namespace ETicaret.Application.Features.Commands.Product.UpdateProduct
 
         public async Task<UpdateProductCommandResponse> Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
         {
-            ETicaretAPI.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
+            ETicaret.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
             product.Stock = request.Stock;
             product.Price = request.Price;
             product.Name = request.Name;

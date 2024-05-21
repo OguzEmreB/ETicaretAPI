@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
+namespace ETicaret.Infrastructure.Services.Storage.Azure
 {
     public class AzureStorage :Storage, IAzureStorage
     {

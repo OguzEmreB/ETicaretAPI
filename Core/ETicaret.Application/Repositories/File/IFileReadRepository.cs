@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Application.Repositories
 {
-    public interface IFileReadRepository : IReadRepository<ETicaretAPI.Domain.Entities.File>
+    public interface IFileReadRepository : IReadRepository<ETicaret.Domain.Entities.File>
     {
     }
 }

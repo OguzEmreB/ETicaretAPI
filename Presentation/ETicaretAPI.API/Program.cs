@@ -1,13 +1,16 @@
 using ETicaret.Application.Validators;
-using ETicaretAPI.Infrastructure.Filters;
-using ETicaretAPI.Infrastructure;
-using ETicaretAPI.Persistence;
+using ETicaret.Infrastructure.Filters;
+using ETicaret.Infrastructure;
+using ETicaret.Persistence;
 using FluentValidation.AspNetCore;
-using ETicaretAPI.Infrastructure.Services.Storage.Local;
-using ETicaretAPI.Infrastructure.Services.Storage.Azure;
+using ETicaret.Infrastructure.Services.Storage.Local;
+using ETicaret.Infrastructure.Services.Storage.Azure;
 using MediatR;
 using System.Reflection;
 using ETicaret.Application;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +22,7 @@ builder.Services.AddApplicationService();
 
 builder.Services.AddStorage<LocalStorage>();
 //builder.Services.AddStorage<AzureStorage>();
- 
+
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(
 //policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin())); // herkese izin verilir. app.UseCors(); eklenir
@@ -28,7 +31,7 @@ policy => policy.WithOrigins("http://localhost:4200", "https://localhost:4200", 
 
 
 
-builder.Services.AddControllers(options=>options.Filters.Add<ValidationFilter>())
+builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
     .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>()) //
     .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true); // Dafault validator filterýný iptal ediyoruz.
 
@@ -36,8 +39,25 @@ builder.Services.AddControllers(options=>options.Filters.Add<ValidationFilter>()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer("Admin",options =>
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateAudience = true, // oluþturulacak token deðerini kimlerin/ hangi originlerin/ sitelerin kullanacaðýný
+                                     // belirlediðimiz deðerdir. => www....com
+            ValidateIssuer = true, // oluþturulacak token deðerini kimin daðýttýðýný ifade edeceðimiz alandýr. www.myapi.com
+            ValidateLifetime = true,// oluþturulan token deðerinin süresini kontrol edecek olan doðrulamadýr.
+            ValidateIssuerSigningKey = true, // üretilecek token deðerinin uygulaamamýza ait bir deðer olduðunu
+                                             // ifade eden security key verisinin doðrulamad*sýdýr.
 
+            ValidAudience = builder.Configuration["Token:Audience"],
+            ValidIssuer = builder.Configuration["Token:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"]))
+        };
+    });
+
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -48,6 +68,7 @@ app.UseStaticFiles(); // wwwroot kullanabilmek için
 app.UseCors();
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

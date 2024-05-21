@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ETicaretAPI.Persistence.Migrations
+namespace ETicaret.Persistence.Migrations
 {
     /// <inheritdoc />
     public partial class mig_6 : Migration

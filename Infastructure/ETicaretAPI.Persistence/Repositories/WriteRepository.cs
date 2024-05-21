@@ -1,6 +1,6 @@
 ﻿using ETicaret.Application.Repositories;
-using ETicaretAPI.Domain.Entities.Common;
-using ETicaretAPI.Persistence.Contexts;
+using ETicaret.Domain.Entities.Common;
+using ETicaret.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Persistence.Repositories
+namespace ETicaret.Persistence.Repositories
 {
     public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity
     {

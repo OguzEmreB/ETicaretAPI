@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ETicaretAPI.Persistence.Contexts;
+using ETicaret.Persistence.Contexts;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using ETicaret.Application.Repositories;
-using ETicaretAPI.Persistence.Repositories;
-using ETicaretAPI.Infrastructure.Services.Storage;
-using ETicaretAPI.Domain.Entities.Identity;
+using ETicaret.Persistence.Repositories;
+using ETicaret.Infrastructure.Services.Storage;
+using ETicaret.Domain.Entities.Identity;
 
-namespace ETicaretAPI.Persistence
+namespace ETicaret.Persistence
 {
     public static class ServiceRegistration
     { 

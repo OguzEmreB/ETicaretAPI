@@ -1,5 +1,5 @@
 ﻿using ETicaret.Application.Repositories;
-using ETicaretAPI.Infrastructure.Services.Storage;
+using ETicaret.Infrastructure.Services.Storage;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -27,15 +27,15 @@ namespace ETicaret.Application.Features.Commands.ProductImageFile.UploadProductI
             List<(string fileName, string pathOrContainerName)> result = await _storageService
                 .UploadAsync("product-images", request.Files);
 
-           ETicaretAPI.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
+           ETicaret.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
 
             
-            await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new ETicaretAPI.Domain.Entities.ProductImageFile
+            await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new ETicaret.Domain.Entities.ProductImageFile
             {
                 FileName = r.fileName,
                 Path = r.pathOrContainerName,
                 Storage = _storageService.StorageName,
-                Products = new List<ETicaretAPI.Domain.Entities.Product>() { product }
+                Products = new List<ETicaret.Domain.Entities.Product>() { product }
             }).ToList());
 
             await _productImageFileWriteRepository.SaveAsync();

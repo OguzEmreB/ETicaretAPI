@@ -1,6 +1,6 @@
-﻿using ETicaretAPI.Domain.Entities;
-using ETicaretAPI.Domain.Entities.Common;
-using ETicaretAPI.Domain.Entities.Identity;
+﻿using ETicaret.Domain.Entities;
+using ETicaret.Domain.Entities.Common;
+using ETicaret.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Persistence.Contexts
+namespace ETicaret.Persistence.Contexts
 {
     public class ETicaretAPIDbContext : IdentityDbContext<AppUser,AppRole,string>
     {

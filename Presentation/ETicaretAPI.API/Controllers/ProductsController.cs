@@ -1,9 +1,9 @@
 ﻿using ETicaret.Application.Repositories;
 using ETicaret.Application.ViewModels.Products;
-using ETicaretAPI.Domain.Entities;
+using ETicaret.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using ETicaretAPI.Infrastructure.Services.Storage;
+using ETicaret.Infrastructure.Services.Storage;
 using Microsoft.EntityFrameworkCore;
 using MediatR;
 using ETicaret.Application.Features.Commands.Product.CreateProduct;
@@ -14,11 +14,14 @@ using ETicaret.Application.Features.Commands.Product.RemoveProduct;
 using ETicaret.Application.Features.Commands.ProductImageFile.UploadProductImage;
 using ETicaret.Application.Features.Commands.ProductImageFile.RemoveProductImage;
 using ETicaret.Application.Features.Queries.Product.ProductImageFile.GetProductImage;
+using Microsoft.AspNetCore.Authorization;
 
-namespace ETicaretAPI.API.Controllers
+namespace ETicaret.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Admin")]
+
     public class ProductsController : ControllerBase
     {
         private readonly IProductWriteRepository _productWriteRepository;

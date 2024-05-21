@@ -1,5 +1,5 @@
 ﻿ 
-using ETicaretAPI.Infrastructure.StaticServices;
+using ETicaret.Infrastructure.StaticServices;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Infrastructure.Services
+namespace ETicaret.Infrastructure.Services
 {
     public class FileService 
     {

@@ -19,7 +19,7 @@ namespace ETicaret.Application.Features.Queries.Product.GetByIdProduct
 
         public async Task<GetByIdProductQueryResponse> Handle(GetByIdProductQueryRequest request, CancellationToken cancellationToken)
         {
-            ETicaretAPI.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id, false);
+            ETicaret.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id, false);
             return new()
             {
                 Name = product.Name,

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Domain.Entities.Identity
+namespace ETicaret.Domain.Entities.Identity
 {
     public class AppRole : IdentityRole<string>
     {

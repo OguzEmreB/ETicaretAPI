@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Infrastructure.Services.Storage.Local
+namespace ETicaret.Infrastructure.Services.Storage.Local
 {
     public class LocalStorage : Storage, ILocalStorage
     {
