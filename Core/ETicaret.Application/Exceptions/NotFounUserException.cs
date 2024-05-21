@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Application.Exceptions
 {
-    public class NotFounUserException : Exception
+    public class NotFoundUserException : Exception
     {
-        public NotFounUserException() : base("kullanıcı adı veya şifre hatalıs")
+        public NotFoundUserException() : base("kullanıcı adı veya şifre hatalıs")
         {
 
         }
-        public NotFounUserException(string? message): base(message)
+        public NotFoundUserException(string? message): base(message)
         {
 
         }
-        public NotFounUserException(string? message,Exception? innerException) : base(message,innerException)
+        public NotFoundUserException(string? message,Exception? innerException) : base(message,innerException)
         {
 
         }

@@ -31,7 +31,7 @@ namespace ETicaret.Application.Features.Commands.AppUser.LoginUser
             if (user == null)
                 user = await _userManager.FindByEmailAsync(request.UsernameOrEmail);
             if (user == null)
-                throw new NotFounUserException();
+                throw new NotFoundUserException();
             SignInResult result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
             if (result.Succeeded) // Authenticated
             {
