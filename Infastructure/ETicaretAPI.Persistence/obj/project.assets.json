@@ -1114,7 +1114,6 @@
           "FluentValidation": "11.9.1",
           "FluentValidation.AspNetCore": "11.3.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.1",
-          "Google.Apis.Auth": "1.68.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
@@ -2566,6 +2565,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ETicaret.Application >= 1.0.0",
+      "Google.Apis.Auth >= 1.68.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.30",
       "Microsoft.EntityFrameworkCore >= 7.0.18",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
@@ -2621,6 +2621,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Google.Apis.Auth": {
+            "target": "Package",
+            "version": "[1.68.0, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.30, )"

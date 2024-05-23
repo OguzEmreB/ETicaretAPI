@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B078F8E-6614-438A-9824-8EA7CB1E7877}|Infastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.persistence\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B078F8E-6614-438A-9824-8EA7CB1E7877}|Infastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj|solutionrelative:infastructure\\eticaretapi.persistence\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B078F8E-6614-438A-9824-8EA7CB1E7877}|Infastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\infastructure\\eticaretapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B078F8E-6614-438A-9824-8EA7CB1E7877}|Infastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj|solutionrelative:infastructure\\eticaretapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\abstractions\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\abstractions\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\features\\commands\\googlelogin\\googlelogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\features\\commands\\googlelogin\\googlelogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\features\\commands\\googlelogin\\googlelogincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\features\\commands\\googlelogin\\googlelogincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\features\\commands\\googlelogin\\googlelogincommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\features\\commands\\googlelogin\\googlelogincommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\abstractions\\services\\authentication\\iinternalauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\abstractions\\services\\authentication\\iinternalauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\abstractions\\services\\authentication\\iexternalauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\abstractions\\services\\authentication\\iexternalauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\presentation\\eticaretapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DAF528-AE5D-4002-91DD-73C66F87BC9E}|Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj|solutionrelative:presentation\\eticaretapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|e:\\ao\u011Fuz\\eticaretuygulamasi\\eticaretapi\\core\\eticaret.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1959B3-6AF4-4612-83D8-80AC45647297}|Core\\ETicaret.Application\\ETicaret.Application.csproj|solutionrelative:core\\eticaret.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1551,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,54 +78,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GoogleLoginCommandResponse.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandResponse.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandResponse.cs",
-              "RelativeToolTip": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T08:38:49.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GoogleLoginCommandHandler.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
-              "RelativeToolTip": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwD8AAAA0AAAA",
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infastructure\\ETicaretAPI.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T08:32:38.409Z",
+              "WhenOpened": "2024-05-23T22:19:04.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GoogleLoginCommandRequest.cs",
-              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandRequest.cs",
-              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandRequest.cs",
-              "RelativeToolTip": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Abstractions\\Services\\IAuthService.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Core\\ETicaret.Application\\Abstractions\\Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T08:31:29.291Z",
+              "WhenOpened": "2024-05-23T22:16:46.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\Program.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\ETicaretAPI.API\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAlwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:15:17.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\Controllers\\UsersController.cs",
               "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Presentation\\ETicaretAPI.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAIwCYAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T20:21:46.914Z",
+              "WhenOpened": "2024-05-23T22:01:48.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ETicaretAPI.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\ETicaretAPI.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:01:43.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginUserCommandHandler.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "RelativeToolTip": "Core\\ETicaret.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAawCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:53:08.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IInternalAuthentication.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IInternalAuthentication.cs",
+              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IInternalAuthentication.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IInternalAuthentication.cs",
+              "RelativeToolTip": "Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IInternalAuthentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:50:57.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Persistence\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infastructure\\ETicaretAPI.Persistence\\Services\\AuthService.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Infastructure\\ETicaretAPI.Persistence\\Services\\AuthService.cs",
+              "RelativeToolTip": "Infastructure\\ETicaretAPI.Persistence\\Services\\AuthService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAewB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:26:58.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoogleLoginCommandHandler.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "RelativeToolTip": "Core\\ETicaret.Application\\Features\\Commands\\GoogleLogin\\GoogleLoginCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:26:15.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IExternalAuthentication.cs",
+              "DocumentMoniker": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IExternalAuthentication.cs",
+              "RelativeDocumentMoniker": "Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IExternalAuthentication.cs",
+              "ToolTip": "E:\\ao\u011Fuz\\ETicaretUygulamasi\\ETicaretAPI\\Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IExternalAuthentication.cs",
+              "RelativeToolTip": "Core\\ETicaret.Application\\Abstractions\\Services\\Authentication\\IExternalAuthentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:44:25.992Z",
               "EditorCaption": ""
             }
           ]
@@ -121,6 +223,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
