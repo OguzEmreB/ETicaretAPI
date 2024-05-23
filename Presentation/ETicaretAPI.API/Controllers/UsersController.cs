@@ -1,5 +1,6 @@
 ﻿using ETicaret.Application.Features.Commands.AppUser.CreateUser;
 using ETicaret.Application.Features.Commands.AppUser.LoginUser;
+using ETicaret.Application.Features.Commands.GoogleLogin;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -9,7 +10,6 @@ namespace ETicaret.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes ="Admin")]
     public class UsersController : ControllerBase
     {
         readonly IMediator _mediator;
@@ -30,6 +30,14 @@ namespace ETicaret.API.Controllers
         public async Task<IActionResult> Login(LoginUserCommandRequest loginUserCommandRequest)
         {
             LoginUserCommandResponse response = await _mediator.Send(loginUserCommandRequest);
+            return Ok(response);
+        }
+
+        [HttpPost("google-login")]
+
+        public async Task<IActionResult> GoogleLogin(GoogleLoginCommandRequest googleLoginCommandRequest)
+        {
+            GoogleLoginCommandResponse response = await _mediator.Send(googleLoginCommandRequest);
             return Ok(response);
         }
     }
