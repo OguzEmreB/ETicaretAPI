@@ -66,6 +66,7 @@ namespace ETicaret.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] GetAllProductQueryRequest getAllProductQueryRequest)
         {
+             
             //await Task.Delay(1500); // spinner görünsün 
             #region deneme
 
