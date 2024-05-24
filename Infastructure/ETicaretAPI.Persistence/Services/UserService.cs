@@ -1,7 +1,9 @@
 ﻿using ETicaret.Application.Abstractions.Services;
 using ETicaret.Application.DTOs.User;
+using ETicaret.Application.Exceptions;
 using ETicaret.Application.Features.Commands.AppUser.CreateUser;
 using ETicaret.Domain.Entities.Identity;
+using Google.Apis.Auth.OAuth2;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -41,8 +43,21 @@ namespace ETicaretAPI.Persistence.Services
             else
                 foreach (var error in result.Errors)
                     response.Message += $"{error.Code} - {error.Description}\n";
-            
+
             return response;
+        }
+
+        public async Task UpdateRefreshToken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenLifeTİme)
+        { 
+            if (user != null)
+            {
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenEndDate = accessTokenDate.AddSeconds(addOnAccessTokenLifeTİme);
+                await _userManager.UpdateAsync(user);
+            }
+            else
+            throw new NotFoundUserException();
+
         }
     }
 }
